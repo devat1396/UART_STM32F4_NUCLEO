@@ -1,0 +1,11 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Wed Nov 04 00:37:13 2020
+;VERSION 0.2
+;FILE nucleo_try.o
+__asm___12_Nucleo_Try_c_main____REV16 <= USED 0
+__asm___12_Nucleo_Try_c_main____REVSH <= USED 0
+__asm___12_Nucleo_Try_c_main____RRX <= USED 0
+;FILE startup_stm32f446xx.o
+;FILE system_stm32f4xx.o
+__asm___18_system_stm32f4xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REVSH <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____RRX <= USED 0

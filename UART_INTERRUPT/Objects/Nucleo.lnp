@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp
+".\objects\nucleo_try.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
+--library_type=microlib
+--feedback ".\Objects\Nucleo.fed" --feedback_image=none
+--strict --scatter ".\Objects\Nucleo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Nucleo.map" -o .\Objects\Nucleo.axf
